@@ -3,7 +3,7 @@ body {
   box-sizing: border-box;
 }
 .cafe {
-  background-image: url(../images/Layer\ 379.png);
+  background-image: url(../images/cafe.png);
   height: 250px;
   color: #fff;
   text-align: center;
@@ -139,4 +139,107 @@ body {
 .instagram-heading span {
   font-size: 14px;
   font-weight: 700;
+}
+
+/* signup-section */
+.signup-heading {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 17px;
+  font-weight: 500;
+}
+.signup-para {
+  text-align: center;
+  font-size: 17px;
+  font-weight: lighter;
+}
+.input-div {
+  text-align: center;
+  margin-top: 50px;
+}
+.input-div input {
+  width: 300px;
+  padding: 15px;
+  background-color: #f6f6f6;
+  outline: none;
+  border: none;
+}
+.input-div button {
+  text-transform: uppercase;
+  padding: 15px 30px;
+  background-color: #193f01;
+  color: #fff;
+  border: none;
+  outline: none;
+  letter-spacing: 2px;
+}
+.about {
+  display: flex;
+  padding: 70px;
+  margin-top: 50px;
+  justify-items: center;
+  background-color: #f6f6f6;
+  /* text-align: center; */
+}
+.service-col {
+  flex-grow: 1;
+}
+.categories-col {
+  flex-grow: 0.5;
+}
+.follow-col {
+  flex-grow: 1;
+}
+.account-col {
+  flex-grow: 1;
+}
+.about h2 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.about li {
+  list-style-type: none;
+  font-size: 11px;
+  line-height: 20px;
+}
+.social-icons {
+  margin: 20px 10px;
+}
+.fb-icon {
+  padding: 10px 15px;
+  color: #b3b3b3;
+  border: 1px solid #b3b3b3;
+  border-radius: 50%;
+  font-size: 15px;
+}
+.social-icons .icons {
+  color: #b3b3b3;
+  border: 1px solid #b3b3b3;
+  padding: 11px 11px;
+  border-radius: 50%;
+  font-size: 15px;
+}
+
+.social-icons .icons:hover {
+  background-color: #134b6f;
+  color: #fff;
+}
+.social-icons .fb-icon:hover {
+  background-color: #134b6f;
+  color: #fff;
+}
+.follow-col ul li i {
+  font-size: 12px;
+  color: #255f00;
+  margin-right: 10px;
+}
+footer p {
+  text-align: center;
+  color: #fff;
+  background-color: #134b6f;
+  padding: 20px;
+  font-size: 11px;
 }

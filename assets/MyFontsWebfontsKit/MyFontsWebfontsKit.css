@@ -1,0 +1,28 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3939353, 2020-08-24T11:48:14-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: GillSansMTPro-Light by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/gill-sans/pro-light/
+ * Copyright: Font software Copyright 2001 Adobe Systems Incorporated. Typeface designs Copyright The Monotype Corporation. All Rights Reserved.
+ * 
+ * 
+ * 
+ * © 2020 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3c1c19");
+  
+@font-face {
+  font-family: 'GillSansMTPro-Light';
+  src: url('webFonts/GillSansMTPro-Light/font.woff2') format('woff2'), url('webFonts/GillSansMTPro-Light/font.woff') format('woff');
+}
+
