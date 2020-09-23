@@ -1,6 +1,13 @@
 body {
-  font-family: sans-serif;
+  font-family: GillSansMTPro-Light;
   box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: GillSansMTPro-Light;
 }
 .cafe {
   background-image: url(../images/cafe.png);
@@ -10,9 +17,8 @@ body {
   background-size: cover;
 }
 .cafe .heading {
-  word-spacing: 2px;
-  font-weight: 100;
-  font-size: 24px;
+  font-size: 70px;
+  font-family: "Gill Sans";
   padding-top: 90px;
 }
 .cafe .head-para {
@@ -22,21 +28,21 @@ body {
 /* cards-section styling */
 .card-container {
   display: flex;
-  column-gap: 10px;
+  column-gap: 35px;
   text-align: center;
   justify-content: center;
   margin-top: 30px;
 }
 .card-container .col {
-  flex-basis: 42%;
+  flex-basis: 50%;
 }
 .cards-heading {
   text-align: center;
   margin: 30px 0;
 }
 .card-image img {
-  height: 450px;
-  max-width: 90%;
+  height: 500px;
+  width: 100%;
 }
 .image-heading {
   text-transform: uppercase;
