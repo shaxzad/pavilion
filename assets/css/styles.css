@@ -1,0 +1,142 @@
+body {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+.cafe {
+  background-image: url(../images/Layer\ 379.png);
+  height: 250px;
+  color: #fff;
+  text-align: center;
+  background-size: cover;
+}
+.cafe .heading {
+  word-spacing: 2px;
+  font-weight: 100;
+  font-size: 24px;
+  padding-top: 90px;
+}
+.cafe .head-para {
+  font-size: 18px;
+  line-height: 20px;
+}
+/* cards-section styling */
+.card-container {
+  display: flex;
+  column-gap: 10px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.card-container .col {
+  flex-basis: 42%;
+}
+.cards-heading {
+  text-align: center;
+  margin: 30px 0;
+}
+.card-image img {
+  height: 450px;
+  max-width: 90%;
+}
+.image-heading {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 20px;
+}
+.image-description {
+  text-align: center;
+  font-size: 11px;
+}
+.card-container button {
+  padding: 8px;
+  text-align: center;
+  background-color: #134c6f;
+  color: #fff;
+  border: none;
+  width: 170px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+/* garden furniture section  */
+.furniture-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.furniture-container h2 {
+  text-transform: uppercase;
+  margin-top: 78px;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 3px;
+}
+.furniture-container h3 {
+  text-transform: capitalize;
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 45px;
+}
+.furniture-container img {
+  max-width: 100%;
+}
+
+.img-div {
+  margin-left: 45%;
+  margin-top: 50px;
+}
+.furniture-container button {
+  padding: 8px;
+  text-align: center;
+  background-color: #134c6f;
+  color: #fff;
+  border: none;
+  width: 170px;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+.garden-heading {
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.garden-Furniture {
+  display: flex;
+  column-gap: 20px;
+}
+.garden-Furniture img {
+  height: 300px;
+  width: 100%;
+}
+.more {
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 14px;
+  margin-top: 70px;
+  margin-bottom: 100px;
+  text-decoration: underline;
+}
+
+/* instagram-section */
+.instagram {
+  display: flex;
+  column-gap: 10px;
+}
+.instagram .col {
+  flex: 1;
+}
+.instagram-heading {
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 24px;
+  padding-bottom: 50px;
+}
+.instagram-heading span {
+  font-size: 14px;
+  font-weight: 700;
+}
