@@ -167,6 +167,9 @@ header p {
   text-transform: uppercase;
   margin-top: 50px;
 }
+.furniture-container button:hover {
+  cursor: pointer;
+}
 
 .garden-heading {
   text-transform: uppercase;
@@ -264,6 +267,9 @@ header p {
   outline: none;
   letter-spacing: 2px;
 }
+.input-div button:hover {
+  cursor: pointer;
+}
 .about {
   display: flex;
   padding: 70px 0px;
@@ -322,10 +328,12 @@ header p {
 
 .social-icons .icons:hover {
   background-color: #134b6f;
+  cursor: pointer;
   color: #fff;
 }
 .social-icons .fb-icon:hover {
   background-color: #134b6f;
+  cursor: pointer;
   color: #fff;
 }
 .follow-col ul li i {
