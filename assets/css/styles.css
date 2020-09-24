@@ -6,7 +6,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+p {
   font-family: GillSansMTPro-Light;
 }
 header p {
@@ -22,19 +23,35 @@ header p {
 }
 .cafe {
   background-image: url(../images/cafe.png);
-  height: 250px;
   color: #fff;
   text-align: center;
   background-size: cover;
 }
+.banner {
+  padding: 70px 200px;
+}
+@media (max-width: 992px) {
+  .banner {
+    padding: 70px 80px;
+  }
+}
+@media (max-width: 767px) {
+  .banner {
+    padding: 70px 50px;
+  }
+}
 .cafe .heading {
-  font-size: 70px;
-  font-family: "Gill Sans";
-  padding-top: 90px;
+  font-size: 60px;
+  line-height: 60px;
+  padding-bottom: 20px;
+  text-transform: capitalize;
 }
 .cafe .head-para {
-  font-size: 18px;
-  line-height: 20px;
+  font-size: 22px;
+  line-height: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  letter-spacing: 0.7px;
 }
 /* cards-section styling */
 .card-container {
@@ -50,19 +67,25 @@ header p {
 .cards-heading {
   text-align: center;
   margin: 30px 0;
+  font-size: 32px;
+  line-height: 66px;
 }
 .card-image img {
   height: 500px;
   width: 100%;
 }
-.image-heading {
+.card-content .image-heading {
   text-transform: uppercase;
   text-align: center;
-  font-size: 20px;
+  font-size: 40px;
+  line-height: 56px;
+  color: #282828;
 }
-.image-description {
+.card-content .image-description {
   text-align: center;
-  font-size: 11px;
+  font-size: 18px;
+  letter-spacing: 0.7px;
+  color: #282828;
 }
 .card-container button {
   padding: 8px;
@@ -74,18 +97,30 @@ header p {
   text-transform: uppercase;
   margin-top: 20px;
 }
+.card-container button:focus {
+  outline: none;
+}
+.heading-furniture {
+  font-size: 80px;
+  color: #282828;
+}
+.card-container button:hover {
+  cursor: pointer;
+}
 /* garden furniture section  */
 .furniture-container {
   display: flex;
   justify-content: space-around;
 }
 
-.furniture-container h2 {
+.furniture-container .heading {
   text-transform: uppercase;
   margin-top: 78px;
-  font-weight: 400;
-  font-size: 24px;
-  letter-spacing: 3px;
+  font-size: 60px;
+  line-height: 60px;
+}
+.furniture-container span {
+  display: inline;
 }
 .furniture-container h3 {
   text-transform: capitalize;
