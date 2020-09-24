@@ -23,6 +23,7 @@ header p {
 }
 .header-input {
   position: absolute !important;
+  display: flex;
   top: 5%;
   left: 33%;
   z-index: 100;
@@ -33,8 +34,33 @@ header p {
   outline: none;
   border: none;
 }
+.header-input a {
+  color: #fff;
+  margin-top: 15px;
+  margin-left: 268px;
+}
+.header-input i {
+  color: #fff;
+  font-size: 25px;
+  margin-left: 17px;
+  margin-top: 8px;
+}
+
 .slider {
   position: relative;
+}
+.your-class img {
+  width: 100%;
+  background-color: rgba(2, 2, 0, 5);
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 255, 0.7);
+  z-index: 2;
 }
 .custom-navbar {
   position: absolute !important;
@@ -49,6 +75,7 @@ header p {
 .custom-navbar .nav-bar a {
   color: #fff;
   text-align: center;
+  text-transform: uppercase;
 }
 .cafe {
   background-image: url(../images/cafe.png);
@@ -202,6 +229,7 @@ header p {
     column-gap: 20px;
   }
 }
+
 .garden-Furniture img {
   height: 300px;
   width: 100%;
