@@ -21,6 +21,18 @@ header p {
   padding: 10px;
   font-family: "Gill Sans";
 }
+.header-input {
+  position: absolute !important;
+  top: 5%;
+  left: 33%;
+  z-index: 100;
+}
+.header-input input {
+  width: 460px;
+  padding: 20px;
+  outline: none;
+  border: none;
+}
 .slider {
   position: relative;
 }
