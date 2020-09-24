@@ -9,6 +9,17 @@ h4,
 h5 {
   font-family: GillSansMTPro-Light;
 }
+header p {
+  background-color: #000000;
+  font-size: 13px;
+  letter-spacing: 1px;
+  line-height: 28px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px;
+  font-family: "Gill Sans";
+}
 .cafe {
   background-image: url(../images/cafe.png);
   height: 250px;
@@ -135,6 +146,7 @@ h5 {
 .instagram .col {
   flex: 1;
 }
+
 .instagram-heading {
   text-transform: uppercase;
   text-align: center;
