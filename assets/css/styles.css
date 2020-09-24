@@ -61,9 +61,12 @@ header p {
   justify-content: center;
   margin-top: 30px;
 }
-.card-container .col {
-  flex-basis: 50%;
+@media (max-width: 667px) {
+  .card-container {
+    display: block;
+  }
 }
+
 .cards-heading {
   text-align: center;
   margin: 30px 0;
@@ -77,8 +80,9 @@ header p {
 .card-content .image-heading {
   text-transform: uppercase;
   text-align: center;
-  font-size: 40px;
-  line-height: 56px;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 300;
   color: #282828;
 }
 .card-content .image-description {
@@ -159,15 +163,27 @@ header p {
   display: flex;
   column-gap: 20px;
 }
+@media (max-width: 767px) {
+  .garden-Furniture .col {
+    flex: 1;
+    flex-basis: 100%;
+    column-gap: 20px;
+  }
+}
 .garden-Furniture img {
   height: 300px;
   width: 100%;
 }
+.garden-Furniture p {
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #232628;
+}
 .more {
   text-transform: uppercase;
   text-align: center;
-  letter-spacing: 3px;
-  font-size: 14px;
+  font-size: 20px;
+  letter-spacing: 2px;
   margin-top: 70px;
   margin-bottom: 100px;
   text-decoration: underline;
@@ -183,15 +199,17 @@ header p {
 }
 
 .instagram-heading {
+  font-size: 50px;
+  line-height: 62px;
+  color: #282828;
   text-transform: uppercase;
   text-align: center;
-  letter-spacing: 1px;
-  font-size: 24px;
   padding-bottom: 50px;
 }
 .instagram-heading span {
-  font-size: 14px;
-  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-family: inherit;
 }
 
 /* signup-section */
@@ -199,13 +217,15 @@ header p {
   text-transform: uppercase;
   text-align: center;
   margin-top: 50px;
-  font-size: 17px;
-  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  color: #282828;
 }
 .signup-para {
   text-align: center;
-  font-size: 17px;
-  font-weight: lighter;
+  line-height: 32px;
+  font-size: 16px;
+  letter-spacing: 1px;
 }
 .input-div {
   text-align: center;
@@ -229,11 +249,12 @@ header p {
 }
 .about {
   display: flex;
-  padding: 70px;
+  padding: 70px 0px;
   margin-top: 50px;
   justify-items: center;
+}
+.sec-bg-clr {
   background-color: #f6f6f6;
-  /* text-align: center; */
 }
 .service-col {
   flex-grow: 1;
@@ -249,14 +270,20 @@ header p {
 }
 .about h2 {
   text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: 12px;
-  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #000000;
+  letter-spacing: 0.9px;
 }
 .about li {
   list-style-type: none;
-  font-size: 11px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 39px;
+  font-family: GillSansMTPro-Light;
+}
+.about li a {
+  color: #828282;
+  font-family: GillSansMTPro-Light;
 }
 .social-icons {
   margin: 20px 10px;
@@ -291,8 +318,23 @@ header p {
 }
 footer p {
   text-align: center;
-  color: #fff;
   background-color: #134b6f;
   padding: 20px;
-  font-size: 11px;
+  font-size: 16px;
+  line-height: 40px;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+.slick-dots {
+  bottom: 15px !important;
+}
+.slick-dots li button:before {
+  font-size: 16px !important;
+}
+}
+.slick-dots li {
+  margin: 0 0px !important;
+}
+.slick-dotted.slick-slider {
+  margin-bottom: 0px !important;
 }
