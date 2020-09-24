@@ -21,6 +21,23 @@ header p {
   padding: 10px;
   font-family: "Gill Sans";
 }
+.slider {
+  position: relative;
+}
+.custom-navbar {
+  position: absolute !important;
+  width: 100%;
+  background: transparent !important;
+  top: 50%;
+  text-align: center !important;
+}
+.custom-navbar .nav-bar {
+  margin: auto;
+}
+.custom-navbar .nav-bar a {
+  color: #fff;
+  text-align: center;
+}
 .cafe {
   background-image: url(../images/cafe.png);
   color: #fff;
