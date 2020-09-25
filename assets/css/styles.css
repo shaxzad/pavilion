@@ -246,6 +246,12 @@ header p {
   margin-bottom: 100px;
   text-decoration: underline;
 }
+.more a {
+  color: #000;
+}
+.more a:hover {
+  color: #b3b3b3;
+}
 
 /* instagram-section */
 .instagram {
