@@ -389,6 +389,13 @@ footer p {
   color: #ffffff;
   letter-spacing: 1px;
 }
+footer p a {
+  color: #fff;
+}
+footer p a:hover {
+  color: #b3b3b3;
+  text-decoration: underline;
+}
 .slick-dots {
   bottom: 15px !important;
 }
